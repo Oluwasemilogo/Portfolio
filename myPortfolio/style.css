@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #202020;
+}
+.navBar{
+    background-color:#323232;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+.logoo{
+    display: flex;
+}
+.nameLogo{
+  margin-top: 30px;
+  margin-right: 45px;
+  color:#DEDEDE;
+  font-size: 20px;
+}
+.navLink{
+    list-style: none;
+    
+}
+.navLink li{
+    display: inline-block;
+    padding: 0px 10px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.navLink a {
+    text-decoration: none;
+    color: #DEDEDE;
+    font-size: 20px;
+}
+.navLink li a:hover{
+    color: grey;
+}
+.navLink li a {
+    transition: all 0.3s ease 0s;
+}
+.myProfile{
+    margin-top: 60px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.oruko {
+    color: #DEDEDE;
+}
+.details{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #959595;
+}
