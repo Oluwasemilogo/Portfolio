@@ -6,26 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+<script src="/myPortfolio/script.js" defer></script>
 </head>
 <body>
-   <div class="navBar">
-    <div class="logoo">
-    <img src="./images/s_logo-removebg-preview.png" class="logo" alt="">
-     <p class="nameLogo">oluwaSemilogo</p>
+    <div class="mobileMenu">
+        <p class="closeBtn"> X </p>
+        <div class="navLinks" id="navLinks">
+            <ul>
+                <li><a href="#myProfile" class="hom">Home</a></li>
+                <li><a href="#aboutMe" class="abt">About </a></li>
+                <li><a href="#workSection" class="wor">Work</a></li>
+                <li><a href="#contactMe" class="contac">Contact</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="links">
-        <ul class="navLink">
-            <li><a href="#myProfile">Home</a></li>
-            <li><a href="#aboutMe">About me</a></li>
-            <li><a href="#workSection">Work</a></li>
-            <li><a href="#contactMe">Contact</a></li>
+   <div class="navBar">
+     <p class="nameLogo">oluwaSemilogo</p>
+    <div class="navLink" id="navLink">
+        <ul>
+            <li><a  href="#myProfile" >Home</a></li>
+            <li><a href="#aboutMe" >About </a></li>
+            <li><a href="#workSection" >Work</a></li>
+            <li><a href="#contactMe" >Contact</a></li>
         </ul>
     </div>
+    <img src="/myPortfolio/images/Ham.png" class="ham" alt="">
    </div>
    <main>
    <div class="myProfile" id="myProfile">
     <div class="myName">
-        <h1 class="oruko">
+        <h1  class="oruko">
             Hi, I am Oluwasemilogo, <br>
             A Frontend Engineer <br>
              based in Nigeria.
@@ -36,15 +46,17 @@
             digital products for the web.
         </h5>
     
-    <button class="inbox1">
+    <button class="inbox1"> 
+        <a href="mailto:{emmanbamidele471@gmail.com}?subject={subject}&body={content}">
         <img src="./images/mail.png" class="mailImg" alt=""> 
-    hi@ebamidele.com
+    hi@ebamidele.com     
+        </a>
     </button></div>
    </div>
     <div class="about" id="aboutMe">
         <div class="aboutHeader">
             <h5 class="headerText">
-             ABOUT ME  
+             ABOUT 
             </h5>
         </div>
         <div class="aboutme">
@@ -56,14 +68,15 @@
             I'm currently learning Software Engineering 
             at the AltSchool Africa.I am quite familiar with <br>
             some technologies in which I have used to build 
-            some mini projects with what I've learnt so far, <br>
-             which are :
+            some mini projects with what I've learnt so far,which are :
             </h3>
+            <div class="toolList">
             <ul class="toolList">
                 <li>Html 5</li>
                 <li>CSS</li>
                 <li>Javascipt</li>
             </ul>
+        </div>
         </div>
     </div>
     <div class="work" id="workSection">
@@ -71,7 +84,6 @@
             <h5 class="header2Text">
              Here are some of my Featured works and Personal projects  :
             </h5>
-            <tr></tr>
         </div>
             <div class="project">
                 <div class="picture">
@@ -82,14 +94,7 @@
                     A  simple user Validation page
                     </h4>
                     <h6 class="usertext2">
-                    I built a user Validation page with <br>
-                     a dummy database that stores User information <br>
-                      and gives user access to log in or sign up.
-                      <br> <br> 
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-                       Deserunt omnis corporis earum, dolores inventore laboriosam! <br>
-                        Deserunt est, ad vitae pariatur quasi excepturi nulla <br>
-                       obcaecati nam tempora ducimus molestiae eligendi distinctio!
+                    I built a user Validation page with a dummy database that stores  User information and gives user access to log in or sign up.
                     </h6>
                 </div>
             </div>
@@ -99,15 +104,7 @@
                         A simple To-Do List Web Page
                     </h4>
                     <h6 class="todotext2">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                         Architecto quisquam dolorem at sequi labore aut provident illum, <br>
-                          similique facilis accusantium molestiae nisi, praesentium odio <br>
-                           minus dolorum ullam expedita atque ipsum!
-                           <br> <br>
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                           Architecto quisquam dolorem at sequi labore aut provident illum, <br>
-                            similique facilis accusantium molestiae nisi, praesentium odio <br>
-                             minus dolorum ullam expedita atque ipsum!
+                        I built a Simple to do webpage to add tasks to be completed and finally checks it once it is completed.
                     </h6>
                 </div>
 <div class="picture">
@@ -119,21 +116,30 @@
         <h2 class="contactME">Contact Me</h2>
         <h5 class="hire">
             If you are looking to hire a Frontend Engineer, <br>
-            I'm currently available for Internship roles <br>
-             and Junior Entry level roles.
+            I'm currently available for Internship roles, <br>
+             Put me on opportunities and I'm game.
         </h5>
         <button class="inbox2">
-            <img src="./images/mail.png" class="mailImg" alt=""> 
-        hi@ebamidele.com
+            <a href="mailto:{emmanbamidele471@gmail.com}?subject={subject}&body={content}">
+                <img src="./images/mail.png" class="mailImg" alt=""> 
+            hi@ebamidele.com     
+                </a>
         </button>
         <footer>
             <div class="made">
                 <h5 class="orukoMi"> Made by <span> Oluwasemilogo</span> </h5>
             </div>
             <div class="socials">
-                <img src="./images/whatsapp logo.png" class="icoN" alt="">
+                <a href=" https://wa.me/2348138765609">
+                    <img src="./images/whatsapp logo.png" class="icoN" alt="">
+                </a>
+            <a href="https://www.linkedin.com/in/semilogo-bamidele-6303131a8/">
                 <img src="./images/linkedin.png" class="icoN" alt="">
-                <img src="./images/twitter.png" class="icoN" alt="">
+            </a>
+                <a href="https://twitter.com/_logoh">
+                      <img src="./images/twitter.png" class="icoN" alt="">
+                </a>
+              
             </div>
         </footer>
     </div>
